@@ -6,6 +6,10 @@
     <string name="cube_value_4">4</string>
     <string name="cube_value_5">5</string>
     <string name="cube_value_6">6</string>
-    <string name="cube_value_fail">zem</string>
-    <string name="cube_throw">hodit</string>
+    <string name="cube_value_fail">Země</string>
+    <string name="init_state">Neváhej a hoď.</string>
+    <string name="cube_throw">Hodit</string>
+    <string name="prepni_na_tecky">Přepni na tečky</string>
+    <string name="prepni_na_cisla">Přepni na čísla</string>
+    <string name="prepni_na_fancy_vec">Přepni na fancy věc</string>
 </resources>
