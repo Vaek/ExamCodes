@@ -4,7 +4,7 @@ Create an application exploring devices in your network. An Adroid Studio projec
 
 #### Module 1
 
-This module has an activity containing simple list view of discovered devices and two inputs:
+This module has an activity containing simple list view of discovered devices (names and IP addresses) and two inputs:
 
 * interval - time in seconds before next scan runs
 * device name - a name that identifies current device
