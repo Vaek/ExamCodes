@@ -4,15 +4,19 @@ Create an application exploring devices in your network. An Adroid Studio projec
 
 #### Module 1
 
-This module has an activity containing simple list view of discovered devices (names and IP addresses) and two inputs:
+This module has an activity containing two text boxes:
 
 * interval - time in seconds before next scan runs
 * device name - a name that identifies current device
 
-There is also a broadcast receiver that takes care of new devices delivered from the discovery service bound to the activity.
+"Start" button placed below should start a discovery service.
 
 #### Module 2
 
-The other module will contain a discovery service and a listener service. Once it's started the discovery service sends a UDP broadcast (on any port number you choose) and waits for results. When the listener service receives a broadcast it should response with some string constant and a device name (e.g. "MYSVC Tablet1"). When the discovery service receives the response sends it via a broadcast intent to the activity.
+The other module will contain a discovery service. Once started the discovery service sends a UDP broadcast (on any port number you choose) and waits for results. 
+When the client receives a broadcast it should respond with some string constant and a device name (e.g. "EXAMPLE Name1"). 
 
-Once you're done save you work to Github and send us an email with a link to the project. Thanks :-)
+Simple: The response from the client is logged (IP address and a device name).
+Challenging: The activity receives an intent with scan results and displays them as simple text.
+
+Are you done? Save you work to Github and email us a link to the project. Thanks :-)
