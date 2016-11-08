@@ -16,7 +16,7 @@ This module has an activity containing two text boxes:
 The other module will contain a discovery service. Once started the discovery service sends a UDP broadcast (on any port number you choose) and waits for results. 
 When the client receives a broadcast it should respond with some string constant and a device name (e.g. "EXAMPLE Name1"). 
 
-Simple: The response from the client is logged (IP address and a device name).
-Challenging: The activity receives an intent with scan results and displays them as simple text.
+* Simple: The response from the client is logged (IP address and a device name).
+* Challenging: The activity receives an intent with scan results and displays them as simple text.
 
 Are you done? Save you work to Github and email us a link to the project. Thanks :-)
